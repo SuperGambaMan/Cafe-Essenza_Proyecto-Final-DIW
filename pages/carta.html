@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Essenza - Carta</title>
+  <link rel="stylesheet" href="../dist/css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body class="bg-light">
+  <!-- Header -->
+  <header class="bg-secondary text-white py-3">
+    <div class="container py-2">
+      <div class="row align-items-center">
+        <div class="col-auto">
+          <a href="home.html">
+            <img src="../img/logo.png" alt="Café Essenza" width="160" class="img-fluid me-3"
+              style="filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.4));">
+          </a>
+        </div>
+        <div class="col">
+          <div class="d-flex justify-content-end mb-2">
+            <a href="#" class="btn btn-primary border border-success rounded-pill btn-sm">
+              <i class="fa-solid fa-user me-2"></i>Registrarse
+            </a>
+          </div>
+          <div class="d-none d-md-flex gap-2">
+            <a href="carta.html" class="btn btn-primary rounded-pill flex-fill text-center">Carta</a>
+            <a href="pedido-online.html" class="btn btn-primary rounded-pill flex-fill text-center">Pedido Online</a>
+            <a href="reservas.html" class="btn btn-primary rounded-pill flex-fill text-center">Reservas</a>
+            <a href="sobre-nosotros.html" class="btn btn-primary rounded-pill flex-fill text-center">Sobre nosotros</a>
+          </div>
+          <div class="d-md-none mt-2">
+            <button class="btn btn-primary rounded-pill" type="button" data-bs-toggle="collapse"
+              data-bs-target="#menuResponsive" aria-controls="menuResponsive" aria-expanded="false" aria-label="Menú">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse mt-2" id="menuResponsive">
+              <a href="carta.html" class="btn btn-primary rounded-pill w-100 my-1">Carta</a>
+              <a href="pedido-online.html" class="btn btn-primary rounded-pill w-100 my-1">Pedido Online</a>
+              <a href="reservas.html" class="btn btn-primary rounded-pill w-100 my-1">Reservas</a>
+              <a href="sobre-nosotros.html" class="btn btn-primary rounded-pill w-100 my-1">Sobre nosotros</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Main -->
+  <main>
+    <!-- Carta -->
+    <div class="container py-4">
+      <div class="row align-items-center mb-5">
+        <div class="col-12 col-md-6">
+          <h2 class="fw-bold text-center mb-0" style="font-family: 'Playfair Display', serif;">CARTA</h2>
+        </div>
+        <!-- Buscador -->
+        <div class="col-12 col-md-6">
+          <div class="input-group border border-primary border-2 rounded-pill">
+            <span class="input-group-text bg-white border-0 rounded-start-pill ps-3" id="buscar-icono">
+              <i class="fa-solid fa-search"></i>
+            </span>
+            <input type="text" class="form-control border-0 rounded-end-pill" placeholder="Buscar..."
+              aria-label="Buscar" aria-describedby="buscar-icono">
+          </div>
+        </div>
+      </div>
+      <div class="row g-4">
+        <!-- Producto 1 -->
+        <div class="col-12 col-md-6 col-lg-6 mb-4">
+          <div class="card d-flex flex-row align-items-stretch h-100 p-0 position-relative" style="overflow: visible;">
+            <div class="position-relative" style="width: 50%;">
+              <img src="../img/Cafe-latte.png" alt="Café Latte" class="position-absolute start-0 img-fluid border border-secondary" 
+              style="top: -20px;height: calc(100% + 20px);width: 100%;object-fit: cover;">
+            </div>
+            <div class="flex-fill d-flex flex-column justify-content-between border border-secondary border-2 border-start-0 p-3" style="width: 50%;">
+              <div class="text-center">
+                <h5 class="fw-bold mb-2">Café Latte</h5>
+                <p class="mb-2">Un clásico imprescindible: espresso suave mezclado con leche vaporizada para lograr una textura cremosa y reconfortante. Ideal para quienes disfrutan de un sabor equilibrado y delicado, perfecto para cualquier momento del día.</p>
+              </div>
+              <div class="d-flex justify-content-between align-items-end mt-2 flex-wrap">
+                <button class="btn btn-primary border border-success rounded-pill px-4">AÑADIR</button>
+                <span class="fw-bold text-success fs-3 mt-2">2,00€</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Producto 2 -->
+        <div class="col-12 col-md-6 col-lg-6 mb-4">
+          <div class="card d-flex flex-row align-items-stretch h-100 p-0 position-relative" style="overflow: visible;">
+            <div class="position-relative" style="width: 50%;">
+              <img src="../img/Capuccino.png" alt="Capuccino" class="position-absolute start-0 img-fluid border border-secondary" 
+              style="top: -20px;height: calc(100% + 20px);width: 100%;object-fit: cover;">
+            </div>
+            <div class="flex-fill d-flex flex-column justify-content-between border border-secondary border-2 border-start-0 p-3" style="width: 50%;">
+              <div class="text-center">
+                <h5 class="fw-bold mb-2">Capuccino</h5>
+                <p class="mb-2">
+                  El equilibrio perfecto entre intensidad y suavidad. Nuestro capuccino combina un espresso aromático
+                  con una capa ligera de espuma de leche que realza su sabor. Una experiencia italiana en cada sorbo.
+                </p>
+              </div>
+              <div class="d-flex justify-content-between align-items-end mt-2 flex-wrap">
+                <button class="btn btn-primary border border-success rounded-pill px-4">AÑADIR</button>
+                <span class="fw-bold text-success fs-3 mt-2">3,80€</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Producto 3 -->
+        <div class="col-12 col-md-6 col-lg-6 mb-4">
+          <div class="card d-flex flex-row align-items-stretch h-100 p-0 position-relative" style="overflow: visible;">
+            <div class="position-relative" style="width: 50%;">
+              <img src="../img/Latte-vainilla-caramelizada.png" alt="Latte de Vainilla Caramelizada" class="position-absolute start-0 img-fluid border border-secondary" 
+              style="top: -20px;height: calc(100% + 20px);width: 100%;object-fit: cover;">
+            </div>
+            <div class="flex-fill d-flex flex-column justify-content-between border border-secondary border-2 border-start-0 p-3" style="width: 50%;">
+              <div class="text-center">
+                <h5 class="fw-bold mb-2">Latte de Vainilla Caramelizada</h5>
+                <p class="mb-2">Una propuesta especial para los amantes de los sabores dulces. Mezclamos espresso artesanal con leche vaporizada y añadimos vainilla natural y caramelo tostado, creando una bebida suave, aromática y con un toque indulgente. Perfecta para acompañar tus tardes.</p>
+              </div>
+              <div class="d-flex justify-content-between align-items-end mt-2 flex-wrap">
+                <button class="btn btn-primary border border-success rounded-pill px-4">AÑADIR</button>
+                <span class="fw-bold text-success fs-3 mt-2">3,50€</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Producto 4 -->
+        <div class="col-12 col-md-6 col-lg-6 mb-4">
+          <div class="card d-flex flex-row align-items-stretch h-100 p-0 position-relative" style="overflow: visible;">
+            <div class="position-relative" style="width: 50%;">
+              <img src="../img/Pastel-zanahoria.png" alt="Pastel de zanahoria" class="position-absolute start-0 img-fluid border border-secondary" 
+              style="top: -20px;height: calc(100% + 20px);width: 100%;object-fit: cover;">
+            </div>
+            <div class="flex-fill d-flex flex-column justify-content-between border border-secondary border-2 border-start-0 p-3" style="width: 50%;">
+              <div class="text-center">
+                <h5 class="fw-bold mb-2">Pastel de zanahoria</h5>
+                <p class="mb-2">Bizcocho casero elaborado con zanahorias frescas y una mezcla de especias que aportan color y aroma. Su textura acompaña su cobertura cremosa hecha en este pastel una opción deliciosa y equilibrada, ideal para quienes buscan un postre casero y lleno de sabor.</p>
+              </div>
+              <div class="d-flex justify-content-between align-items-end mt-2 flex-wrap">
+                <button class="btn btn-primary border border-success rounded-pill px-4">AÑADIR</button>
+                <span class="fw-bold text-success fs-3 mt-2">4,00€</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Producto 5 -->
+        <div class="col-12 col-md-6 col-lg-6 mb-4">
+          <div class="card d-flex flex-row align-items-stretch h-100 p-0 position-relative" style="overflow: visible;">
+            <div class="position-relative" style="width: 50%;">
+              <img src="../img/Muffin-chocolate.png" alt="Muffin de chocolate" class="position-absolute start-0 img-fluid border border-secondary" 
+              style="top: -20px;height: calc(100% + 20px);width: 100%;object-fit: cover;">
+            </div>
+            <div class="flex-fill d-flex flex-column justify-content-between border border-secondary border-2 border-start-0 p-3" style="width: 50%;">
+              <div class="text-center">
+                <h5 class="fw-bold mb-2">Muffin de chocolate</h5>
+                <p class="mb-2">Tierno, húmedo y con abundantes pepitas de chocolate que se funden en cada bocado. Nuestro muffin es perfecto para una merienda rápida o para recargar energía y reconfortarte con la bebida de la casa.</p>
+              </div>
+              <div class="d-flex justify-content-between align-items-end mt-2 flex-wrap">
+                <button class="btn btn-primary border border-success rounded-pill px-4">AÑADIR</button>
+                <span class="fw-bold text-success fs-3 mt-2">2,00€</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Producto 6 -->
+        <div class="col-12 col-md-6 col-lg-6 mb-4">
+          <div class="card d-flex flex-row align-items-stretch h-100 p-0 position-relative" style="overflow: visible;">
+            <div class="position-relative" style="width: 50%;">
+              <img src="../img/Gofre-caramel-dream.png" alt="Gofre Caramel Dream" class="position-absolute start-0 img-fluid border border-secondary" 
+              style="top: -20px;height: calc(100% + 20px);width: 100%;object-fit: cover;">
+            </div>
+            <div class="flex-fill d-flex flex-column justify-content-between border border-secondary border-2 border-start-0 p-3" style="width: 50%;">
+              <div class="text-center">
+                <h5 class="fw-bold mb-2">Gofre Caramel Dream</h5>
+                <p class="mb-2">Un gofre belga recién hecho, crujiente por fuera y suave por dentro, coronado con una nube de nata montada y un irresistible toffee de caramelo tostado. El equilibrio perfecto entre dulzura, textura y aroma, ideal para acompañar con tu café favorito.</p>
+              </div>
+              <div class="d-flex justify-content-between align-items-end mt-2 flex-wrap">
+                <button class="btn btn-primary border border-success rounded-pill px-4">AÑADIR</button>
+                <span class="fw-bold text-success fs-3 mt-2">2,00€</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </main>
+  <!-- Footer -->
+  <footer class="bg-primary text-light pt-4 pb-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-3 text-center text-md-start mb-4 mb-md-0">
+          <a href="#">
+            <img src="../img/logo.png" alt="Café Essenza" class="w-100" style="max-width:140px; min-width:120px;">
+          </a>
+        </div>
+        <div class="col-12 col-md-3 mb-4 mb-md-0">
+          <h6 class="fw-bold text-success">Servicios</h6>
+          <ul class="list-unstyled mb-0">
+            <li>Wi-Fi gratuito</li>
+            <li>Pet Friendly</li>
+            <li>Pago con tarjeta</li>
+            <li>Pedidos para llevar</li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-3 mb-4 mb-md-0">
+          <h6 class="fw-bold text-success">Información básica</h6>
+          <ul class="list-unstyled mb-0">
+            <li>Dirección: Calle del Café, 12<br>Benalmádena</li>
+            <li>Teléfono: <a href="tel:+34951123456"
+                class="text-white link-underline link-underline-opacity-0 link-success">+34 951 123 456</a></li>
+            <li>Email: <a href="mailto:contacto@cafeessenza.es"
+                class="text-white link-underline link-underline-opacity-0 link-success">contacto@cafeessenza.es</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-3 d-flex flex-column align-items-center align-items-md-start gap-1">
+          <div class="w-100">
+            <h6 class="fw-bold mb-2 text-success">Redes Sociales</h6>
+            <div>
+              <a href="#" class="me-2 fs-4 text-success"><i class="fab fa-instagram text-white link-success"></i></a>
+              <a href="#" class="me-2 fs-4 text-success"><i class="fab fa-tiktok text-white link-success"></i></a>
+              <a href="#" class="me-2 fs-4 text-success"><i class="fab fa-facebook text-white link-success"></i></a>
+            </div>
+          </div>
+          <div class="w-100">
+            <h6 class="fw-bold mb-2 text-success">Horario</h6>
+            <div class="small">
+              <div>Lunes a Viernes: 08:00 – 21:00</div>
+              <div>Sábados y Domingos: 09:00 – 22:00</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-12">
+          <div class="text-left small text-light pt-2 mt-2">© 2025 Marcos Bernal | Café Essenza. Todos los derechos
+            reservados.</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
