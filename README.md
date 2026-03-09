@@ -1,4 +1,4 @@
-T# ☕ Café Essenza
+# ☕ Café Essenza
 
 > Proyecto Final - Diseño de Interfaces Web (DIW)
 
